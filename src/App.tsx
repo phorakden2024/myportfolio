@@ -27,6 +27,7 @@ import {
   Cpu,
 } from "lucide-react";
 import { useState, useEffect } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 // --- Components ---
 
@@ -713,6 +714,7 @@ export default function App() {
 
       {/* Decorative vertical line */}
       {/* <div className="fixed left-6 md:left-12 bottom-0 w-px h-32 bg-neutral-200 hidden lg:block" /> */}
+      <SpeedInsights />
     </div>
   );
 }
